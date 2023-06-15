@@ -52,9 +52,9 @@ print("Greatest Decrease in Profits: " + greatest_loss_month + " (" + str(greate
 
 output_path = os.path.join("analysis", "analysis.txt")
 with open(output_path, 'w') as output:
-    output.write("Financial Analysis\n ----------------------------\n")
+    output.write("Financial Analysis\n----------------------------\n")
     output.write("Total Months: " + str(num_months))
-    output.write("\n Total: $" + str(total_profit))
-    output.write("\n Average Change: $" + str(round(average_change, 2)))
-    output.write("\n Greatest Increase in Profits: " + greatest_profit_month + " (" + str(greatest_profit) + ")")
-    output.write("\n Greatest Decrease in Profits: " + greatest_loss_month + " (" + str(greatest_loss) + ")")
+    output.write("\nTotal: $" + str(total_profit))
+    output.write("\nAverage Change: $" + str(round(average_change, 2)))
+    output.write("\nGreatest Increase in Profits: " + greatest_profit_month + " (" + str(greatest_profit) + ")")
+    output.write("\nGreatest Decrease in Profits: " + greatest_loss_month + " (" + str(greatest_loss) + ")")
